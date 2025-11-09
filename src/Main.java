@@ -12,18 +12,18 @@ public class Main {
         // premitive : int , char , boolean , string , float , double , bit etc.
         // non premitive : arrays , stack , queues
 
-        char c='c';
-        String str="sanglap";
-        boolean b= false;
-        float f=1.2f;
-        double d=12.3;
+//        char c='c';
+//        String str="sanglap";
+//        boolean b= false;
+//        float f=1.2f;
+//        double d=12.3;
 
         // operators : mathematical and logical operator
 
 //        math : + - * / %
 
-        int num1 =11;
-        int num2=5;
+//        int num1 =11;
+//        int num2=5;
 
 //        System.out.println("the sum of num1 and num2 is "+(num1 + num2));
 //        System.out.println("the substraction of num1 and num2 is "+(num1 - num2));
@@ -39,7 +39,7 @@ public class Main {
 
         // take an input from user of his age ,
 
-        Scanner sc=new Scanner(System.in);
+//        Scanner sc=new Scanner(System.in);
 
 
 //        System.out.println("Enter your age : ");
@@ -117,6 +117,72 @@ public class Main {
         // 2. take a fruit name as input from user , if the fruit name is apple or banana then print eat , else print dont eat
 
         // 3. take a integer input from user and print it's table
+
+
+
+//        int num =sc.nextInt();
+//        for (int i=1;i<=10;i++){
+//            System.out.println(num+"*"+i+"="+(num*i));
+//        }
+
+
+//        int inc=1;
+//
+//        while(inc<=10){
+//            System.out.println(num+"*"+inc+"="+(num*inc));
+//            inc++;
+//        }
+
+
+        Scanner sc=new Scanner(System.in);
+//        int a=sc.nextInt();
+//        int b=sc.nextInt();
+
+//        if(a==b){
+//            System.out.println("equal");
+//        }
+//        else{
+//            if(a>b){
+//                System.out.println(a);
+//            }
+//            else{
+//                System.out.println(b);
+//            }
+//        }
+
+//        if(a > b){
+//            System.out.println(a);
+//        }
+//        else if(b>a){
+//            System.out.println(b);
+//        }
+//        else{
+//            System.out.println("Equal");
+//        }
+
+        System.out.println("Enter your marks");
+        int marks=sc.nextInt();
+
+        if(marks >= 90){
+            System.out.println("your grade is A");
+        }
+        else if(marks >=80){
+            System.out.println("Your grade is B");
+        }
+        else if(marks >=60){
+            System.out.println("your grade is C");
+        }
+        else if(marks>=40){
+            System.out.println("your grade is D");
+        }
+        else{
+            System.out.println("You have failed");
+        }
+
+
+
+
+
 
     }
 
