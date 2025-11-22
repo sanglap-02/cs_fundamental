@@ -27,12 +27,19 @@ public class loops {
         //10--> 1
         // i=1 --> 10 (10-i+1) (10-1+1)
         // i=2 --> (10-2+1) = 9
-         for(int i=1 ; i<11 ;i++){
-            System.out.println(10-i+1);
-        }
+//         for(int i=1 ; i<11 ;i++){
+//            System.out.println(10-i+1);
+//        }
+//
+//        for (int i=10 ; i>=1 ; i--){
+//            System.out.println(i);
+//        }
 
-        for (int i=10 ; i>=1 ; i--){
-            System.out.println(i);
+        for(int i=0;i<5;i++){
+            for(int j=0;j<=i;j++){
+                System.out.print("1 ");
+            }
+            System.out.println();
         }
 
 
